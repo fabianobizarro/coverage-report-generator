@@ -5,7 +5,8 @@
 		<ImplicitUsings>enable</ImplicitUsings>
 		<Nullable>enable</Nullable>
 		<AssemblyVersion>0.0.1.0</AssemblyVersion>
-		<AssemblyName>coregen.core</AssemblyName>
+		<AssemblyName>covereport.core</AssemblyName>
+		<PublishTrimmed>true</PublishTrimmed>
 	</PropertyGroup>
 
 </Project>

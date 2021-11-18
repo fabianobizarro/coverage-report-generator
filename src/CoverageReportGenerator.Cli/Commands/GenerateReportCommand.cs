@@ -11,13 +11,13 @@ internal class GenerateReportCommand : ICommand
 {
     private readonly PathHelper _path = new();
 
-    [CommandOption("project", 'p', Description = "Caminho do projeto a ser executado os testes", IsRequired = true)]
+    [CommandParameter(0, Name = "Input path", Description = "Caminho do projeto a ser executado os testes")]
     public string? InputPath { get; init; }
 
-    [CommandOption("output", 'o', Description = "asdasds")] //todo: colocar descricao
+    [CommandOption("output", 'o', Description = "Output path")]
     public string? OutputPath { get; init; }
 
-    [CommandOption("verbose", 'b')]
+    [CommandOption("verbose", 'v')]
     public bool Verbose { get; init; } = false;
 
     [CommandOption("dark")]

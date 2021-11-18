@@ -6,7 +6,10 @@
 		<ImplicitUsings>enable</ImplicitUsings>
 		<Nullable>enable</Nullable>
 		<AssemblyVersion>0.0.1.0</AssemblyVersion>
-		<AssemblyName>coregen</AssemblyName>
+		<AssemblyName>covereport</AssemblyName>
+		<PublishTrimmed>true</PublishTrimmed>
+		<PublishSingleFile>true</PublishSingleFile>
+    	<SelfContained>true</SelfContained>
 	</PropertyGroup>
 
 	<ItemGroup>
