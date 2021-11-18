@@ -1,10 +1,8 @@
 ﻿using CliFx;
-using GenerateReportGenerator.Cli.Commands;
-
-//Console.WriteLine("Hello, World!");
+using CoverageReportGenerator.Cli.Commands;
 
 await new CliApplicationBuilder()
-    .AddCommand<HelloCommand>()
     .AddCommand<GenerateReportCommand>()
+    .AddCommand<InspecCommand>()
     .Build()
     .RunAsync();
